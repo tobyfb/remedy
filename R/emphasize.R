@@ -23,12 +23,12 @@
 #'     )
 #' }
 #' 
-italicsr <- function() enclose("_")
+italicsr <- function() enclose("*")
 
 #' @rdname emphasize
 #' @export
 #' 
-boldr <- function() enclose("__")
+boldr <- function() enclose("**")
 
 #' @rdname emphasize
 #' @export
